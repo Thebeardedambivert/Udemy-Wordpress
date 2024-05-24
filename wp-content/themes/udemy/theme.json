@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "color": {
+      "defaultPalette": false
+    },
+    "blocks": {
+      "core/site-title": {
+        "color": {
+          "defaultPalette": true
+        }
+      }
+    }
+  }
+}

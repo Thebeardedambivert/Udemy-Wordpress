@@ -10,7 +10,6 @@
     <?php wp_body_open(); ?>
 
     <p>Hello World!</p>
-
     <?php wp_footer(); ?>
 </body>
 
