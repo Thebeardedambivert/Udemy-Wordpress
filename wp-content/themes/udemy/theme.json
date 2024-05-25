@@ -122,5 +122,10 @@
         }
       }
     }
+  },
+  "styles": {
+    "color": {
+      "text": "var(--wp--preset--color--u-gray-700)"
+    }
   }
 }
