@@ -113,19 +113,67 @@
           "custom": false,
           "gradients": [],
           "customGradient": false
+        },
+        "typography": {
+          "fontFamilies": [
+            {
+              "fontFamily": "Pacifico, sans-serif",
+              "slug": "u-pacifico",
+              "name": "Udemy Pacifico"
+            }
+          ]
         }
       },
+
       "core/cover": {
         "color": {
           "duotone": [],
           "customDuotone": false
         }
       }
+    },
+    "border": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Rubik, sans-serif",
+          "slug": "u-rubik",
+          "name": "Udemy Rubik"
+        }
+      ]
     }
   },
   "styles": {
     "color": {
-      "text": "var(--wp--preset--color--u-gray-700)"
+      "text": "var(--wp--preset--color--u-gray-700)",
+      "background": "var(--wp--preset--color--u-white)"
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "var(--wp--preset--color--u-success)"
+        }
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "color": {
+          "gradient": "var(--wp--preset--gradient--u-summer-dog)"
+        }
+      },
+      "core/pullquote": {
+        "border": {
+          "width": "2px",
+          "radius": "10px",
+          "style": "solid",
+          "color": "var(--wp--preset--color--u-primary)"
+        }
+      }
     }
   }
 }
