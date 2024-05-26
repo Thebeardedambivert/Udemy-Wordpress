@@ -194,6 +194,15 @@
           "color": "var(--wp--preset--color--u-primary)"
         }
       }
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--u-rubik)",
+      "fontSize": "16px",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "lineHeight": "inherit",
+      "textDecoration": "none",
+      "textTransform": "none"
     }
   }
 }
