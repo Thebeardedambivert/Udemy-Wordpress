@@ -1,7 +1,7 @@
 <?php
 
 // 
-define("NAME","Uzo");
-
-
-echo NAME;
+function sum($a, $b)
+{
+    return $a + $b;
+}
