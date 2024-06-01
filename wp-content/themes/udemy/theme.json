@@ -108,7 +108,7 @@
         "color": {
           "defaultPalette": true,
           "palette": [
-            { "slug": "u-primary", "color": "#ef444", "name": "Udemy Primary" }
+            { "slug": "u-primary", "color": "#ef4444", "name": "Udemy Primary" }
           ],
           "link": true,
           "custom": false,
