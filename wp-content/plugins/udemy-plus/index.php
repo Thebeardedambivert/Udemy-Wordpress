@@ -23,7 +23,8 @@ define("UP_PLUGIN_DIRECTORY", plugin_dir_path(__FILE__));
 
 //Includes
 include (UP_PLUGIN_DIRECTORY . "includes/register-blocks.php");
-include (UP_PLUGIN_DIRECTORY . "includes/blocks/search-form.php.php");
+include (UP_PLUGIN_DIRECTORY . "includes/blocks/search-form.php");
+include (UP_PLUGIN_DIRECTORY . "includes/blocks/page-header.php");
 
 //Hooks
 add_action("init", "up_register_blocks");
