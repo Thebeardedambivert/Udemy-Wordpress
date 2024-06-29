@@ -285,19 +285,24 @@ __webpack_require__.r(__webpack_exports__);
             checked: showCategory,
             onChange: showCategory => setAttributes({
               showCategory
-            })
+            }),
+            help: showCategory ? (0,_wordpress_118n__WEBPACK_IMPORTED_MODULE_3__.__)("Category Shown", "udemy-plus") : (0,_wordpress_118n__WEBPACK_IMPORTED_MODULE_3__.__)("Custom Content Shown", "udemy-plus")
           })
         })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
         ...blockProps,
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
           className: "inner-page-header",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText, {
+          children: showCategory ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h1", {
+            children: (0,_wordpress_118n__WEBPACK_IMPORTED_MODULE_3__.__)("Category: Some Category", "udemy-plus")
+          }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText, {
             tagName: "h1",
-            placeholder: (0,_wordpress_118n__WEBPACK_IMPORTED_MODULE_3__.__)("Heading", "udemy-plus")
-          }), "value=", content, "onChange=", content => setAttributes({
-            content
-          })]
+            placeholder: (0,_wordpress_118n__WEBPACK_IMPORTED_MODULE_3__.__)("Heading", "udemy-plus"),
+            value: content,
+            onChange: content => setAttributes({
+              content
+            })
+          })
         })
       })]
     });
