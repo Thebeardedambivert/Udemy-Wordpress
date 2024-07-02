@@ -22,6 +22,15 @@ if (!function_exists("add_action")) {
 define("UP_PLUGIN_DIRECTORY", plugin_dir_path(__FILE__));
 
 //Includes
+
+$rootFiles = glob(UP_PLUGIN_DIRECTORY . 'includes/*.php');
+$subdirectoryFiles = glob(UP_PLUGIN_DIRECTORY . 'includes/**/*.php');
+$allFiles = array_merge($rootFiles, $subdirectoryFiles);
+
+foreach ($allFiles as $filename) {
+    include_once ($filename);
+}
+
 include (UP_PLUGIN_DIRECTORY . "includes/register-blocks.php");
 include (UP_PLUGIN_DIRECTORY . "includes/blocks/search-form.php");
 include (UP_PLUGIN_DIRECTORY . "includes/blocks/page-header.php");
